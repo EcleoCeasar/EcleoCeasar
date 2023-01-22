@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap");
+ 
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+  body {
+  background-image: url("backgrounds.jpg");
+  background-size: cover;
+}
+
+  h1{
+  font-size: 1.5em;
+  color: white;
+}
+
+  p{
+  font-size: small;
+  font-weight: 300;
+  color: white;
+  margin-top: 12px;
+}
+
+  section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: #4842b3;
+    box-shadow: 1px 2px 10px #0e2431;
+    padding: 0px 4%;
+  }
+   
+  nav ul {
+    display: flex;
+    list-style: none;
+    
+  }
+   
+  nav ul li a {
+    text-decoration: none;
+    margin: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+   
+  .nav ul li a:hover {
+    border-bottom: 2px solid #5ab061;
+  }
+   
+  .active {
+    border-bottom: 2px solid #5043f5;
+  }
+
+  .logo {
+    color: #bd398c;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 40px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .text {
+    position: absolute;
+    margin-left: 84px;
+    margin-top: 680px;
+  }
+   
+  .text h1 {
+    font-size: 3em;
+    color: #fff;
+  }
+   
+  .text h2 {
+    font-size: 4em;
+    color: #fff;
+  }
+   
+  span {
+    color: #5043f5;
+  }
+   
+  .text p {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .my-img {
+    height: 415px;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 655px;
+  }
+
+  .home img{
+    height: 270px;
+    margin-left: 70%;
+    transition: transform 0.2s;
+  }
+
+  .home img:hover{
+    transform: scale(1.4);
+  }
+
+
+/*family section*/
+  .family {
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    display: flex;
+    position: static;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+   
+  .family img{
+    height: 270px;
+    margin-left: 10%;
+    transition: transform 0.2s;
+  }
+
+  .family img:hover{
+    transform: scale(1.4);
+  }
+
+  .family-txt{
+    font-size: 2rem;
+    width: 600px;
+    color: white;
+  }
+
+/*end of family section*/
+
+
+/*hobbies section*/
+
+.hobbies {
+  width: 100%;
+  height: 700px;
+  box-sizing: border-box;
+  display: flex;
+  position: static;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ 
+.hobbies img{
+  height: 270px;
+  margin-left: 10%;
+  transition: transform 0.2s;
+}
+
+.hobbies img:hover{
+  color: red;
+  transform: scale(1.4);
+}
+
+.hobbies-txt{
+  font-size: 2rem;
+  width: 600px;
+  color: white;
+}
+
+/*end of hobbies section*/
+
+/*about my self section*/
+
+.aboutmyself {
+  width: 100%;
+  height: 700px;
+  
+  box-sizing: border-box;
+  display: flex;
+  position: static;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ 
+.aboutmyself img{
+  height: 270px;
+  margin-left: 10%;
+  transition: transform 0.2s;
+}
+
+.aboutmyself img:hover{
+  color: red;
+  transform: scale(1.4);
+}
+
+.aboutmyself-txt{
+  font-size: 2rem;
+  width: 600px;
+  color: white;
+}
+
+/*end of hobbies section*/
+
+
+/*school section*/
+
+.school {
+  width: 100%;
+  height: 700px;
+  
+  box-sizing: border-box;
+  display: flex;
+  position: static;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ 
+.school img{
+  height: 270px;
+  margin-left: 10%;
+  transition: transform 0.2s;
+}
+
+.school img:hover{
+  transform: scale(1.4);
+}
+
+.school-txt{
+  font-size: 2rem;
+  width: 600px;
+  color: white;
+}
+
+/*end of school section*/
